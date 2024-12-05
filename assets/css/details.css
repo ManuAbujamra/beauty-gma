@@ -1,0 +1,49 @@
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.star{
+    width: 50px;
+    margin-right: 10px;
+}
+.produto .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pequeno{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #ececec;
+    cursor: pointer;
+}
+.left-produto{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.main{
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 40px 40px 30px 40px;
+}
+.right-produto{
+    width: 50%;
+}
+.preco{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.produto p{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
